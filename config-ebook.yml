@@ -1,0 +1,5 @@
+# for ebook PDF
+# REVIEW_CONFIG_FILE=config-ebook.yml rake pdf
+inherit: ["config.yml"]
+# bookname: book-ebook
+texdocumentclass: ["review-jsbook", "media=ebook,paper=b5,line_length=40zw,number_of_lines=36,gutter=26mm,serial_pagination=true,hiddenfolio=nikko-pc"]
