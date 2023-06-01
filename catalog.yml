@@ -1,5 +1,6 @@
 PREDEF:
   - preface.re
+  - information.re
 
 CHAPS:
   - setup.re
